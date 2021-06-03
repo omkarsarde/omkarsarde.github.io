@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c9ce035d4bd67e0798304758c0681f9",
+    "revision": "fbd062cecf2663b12d98af341e43c011",
     "url": "/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "3e235346883b1eef05c6",
+    "revision": "bf8cc3a9f18cd791c9e8",
     "url": "/static/css/main.6ce14d51.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.094f5773.chunk.js"
   },
   {
-    "revision": "3e235346883b1eef05c6",
-    "url": "/static/js/main.9f259ec9.chunk.js"
+    "revision": "bf8cc3a9f18cd791c9e8",
+    "url": "/static/js/main.db14fc5a.chunk.js"
   },
   {
     "revision": "ebe499fae1f9936208b5",
@@ -116,12 +116,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/h.3d66c497.png"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/static/media/manOnTable.52be3144.svg"
-  },
-  {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "88416b55357c3cedc99e1bcc1ca987da",
+    "url": "/static/media/os.88416b55.jpg"
   },
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
