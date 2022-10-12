@@ -106,7 +106,7 @@ const educationInfo = {
       duration: "August 2018 - Decemeber 2021",
       Honors: "Graduate Merit Scholarship Recepient.",
       descBullets: [
-        "GPA: 3.48/4.00",
+        "GPA: 3.50/4.00",
         "Coursework: Algorithms, Object-Oriented Design, SDLC, Data Analytics, Machine Learning, Deep Learning, Computer Vision, Pattern Recognition"
       ]
     },
