@@ -5,14 +5,14 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
   username: "Omkar Sarde",
   title: "Hi! I'm Omkar \n",
   subTitle: emoji(
-    "A passionate Software Engineer proficient in SDLC, Machine Learning, Deep Learning, Data Enigeering."
+    "A passionate Software Engineer who is trying to positively change the world, one problem at a time!",
   ),
   resumeLink:
     "https://github.com/omkarsarde/Resume/blob/main/OmkarSardeResume.pdf",
@@ -32,8 +32,9 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER PROFICIENT IN BUILDING END-TO-END ML APPS",
-  skills: [
+  subTitle: "Software Engineer proficient in SDLC, Machine Learning, Deep Learning, Data Enigeering.\n\nAchieving my goals by building end-to-end highly performant, reliable, distributed & scalable AI/ML solutions.\n\nIn my free time you will find me trekking, cooking, competatively playing esports and mentoring students to learn new skills.",
+  skills:[],
+  /*skills: [
     emoji(
       "⚡ Full Stack Software Development"
     ),
@@ -47,7 +48,7 @@ const skillsSection = {
       "⚡ Deep Learning Systems for Computer Vision, Natural Language Processing"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-  ],
+  ],*/
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -85,6 +86,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fab fa-dropbox"
     },
     {
       skillName: "Git",
@@ -140,6 +145,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Machine Learning Engineer",
+      company: "DEKA R&D Corporation",
+      companylogo: require("./assets/images/dekaLogo.png"),
+      date: "Feb 2022 – Present",
+      desc:
+        "Assisted and collaborated with Researchers at Action Lab to facilitate Computer Vision Research.",
+      descBullets: [
+        "Championed the design, development, and deployment of scalable, distributed machine learning systems on AWS, achieving significant improvements in model performance and system efficiency. Technologies used: Python, C++, SQL, Docker, Kubernetes, Airflow, S3, EC2, Lambda, and EMR.",
+        "Achieved high standards of software quality and reliability by leveraging best practices of Agile, CI/CD, and Test-Driven Development (TDD), thereby contributing to the timely delivery of 28 complex stories.",
+        "Innovated two data-pipeline workflows for the Global Event Logging Event Chronicler using Spark and Kafka, effectively handling large-scale, real-time data and enhancing ML model training efficiency.",
+        "Implemented RESTful APIs and microservices using Node.js and Express.js to enable seamless data sharing and interaction between various software components.",
+        "Boosted system performance by 40% through effective system profiling, performance tuning, and refactoring of complex DAGs using Apache Airflow.",
+        "Streamlined the data querying process for ML Research Teams using GraphQL, improving data access efficiency and user satisfaction.",
+        "Architected and deployed a secure, scalable Elasticsearch system on AWS, facilitating advanced data analysis capabilities and setting the foundation for future data version control and similarity search features.",
+      ]
+    },
+    {
       role: "Graduate Research Assistant",
       company: "Rochester Institute of Technology",
       companylogo: require("./assets/images/RitLogo.png"),
@@ -162,6 +184,12 @@ const workExperiences = {
       desc:
         "Engineered hypothesis testing, A/B testing and built scalable ML and Deep Learning models.",
       descBullets: [
+        "Engineered and optimized 24 Big Data ETL pipelines using Hadoop, Spark, and Kafka, handling petabyte-scale data and achieving a 3x improvement in data load speed.",
+        "Developed ML-based CRM prototypes using TensorFlow, Keras, and PyTorch, leveraging AWS SageMaker for deployment, resulting in a 15% increase in sales.",
+        "Mentored five interns, fostering a culture of continuous learning and collaboration by designing comprehensive learning modules on software engineering principles and modern ML frameworks.",
+        "Implemented efficient data management practices using both SQL (PostgreSQL) and NoSQL (MongoDB) databases, providing robust data infrastructure for ML systems.",
+        "Integrated ML systems within the existing microservices architecture using Docker and Kubernetes, enhancing system scalability and resilience.",
+        "Conducted rigorous system debugging and issue resolution using tools like Jira and Git, ensuring optimal system performance and reliability.",
         "Programmed 25 Proof of Concepts (POCs) prototytpes that simulated and analyzed client manufacturing plants.",
         "Executed data engineering and feature extraction using PCA, ICA, LDA, LLE and t-SNE to analyze dominant features in client processes.",
         "Desinged and developed inventory reduction feature to reorder and restock crucial components for inventory management, reducing 15% restocking time.",
@@ -176,6 +204,11 @@ const workExperiences = {
       desc:
         "Supported Scientists, Engineers to replace manual testing of propellants with Deep Learning Systems.",
       descBullets: [
+        "Achieved 94% code coverage through diligent unit testing and refactoring using Jest, leading to significant improvements in application performance and reliability.",
+        "Developed intuitive front-end features for multiple user interfaces using React.js and Redux, following best practices of responsive design and user-centric design.",
+        "Participated in designing and optimizing software architecture using Node.js and Express.js, contributing to scalable and efficient software solutions.",
+        "Demonstrated a proactive approach in the code review and debugging processes using Git and GitHub, fostering a culture of collaboration and continuous improvement.",
+        "Recevied citation for performance.",
         "Assisted development of multiple deep learning system prototypes to analyze ageing & testing of 3 propellant types.",
         "Decreased system storage footprint by 43% through feature engineering, reducing 27% of training time.",
         "Programmed REST APIs to expose model endpoints to interface with Multi-User Intefaces (MUIs).",
