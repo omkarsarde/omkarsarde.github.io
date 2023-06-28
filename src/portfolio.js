@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/omkarsarde",
   linkedin: "https://www.linkedin.com/in/omkarsarde/",
-  gmail: "os4802@g.rit.edu",
+  gmail: "sardeomkarp@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -145,20 +145,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Machine Learning Engineer",
+      role: "Machine Learning Software Engineer",
       company: "DEKA R&D Corporation",
       companylogo: require("./assets/images/dekaLogo.png"),
       date: "Feb 2022 – Present",
       desc:
-        "Assisted and collaborated with Researchers at Action Lab to facilitate Computer Vision Research.",
+        "Developed robust and efficient machine learning systems, achieving significant performance boosts and enhancing the efficiency of data processing, consistently delivering high-quality software in a fast-paced, agile environment.",
       descBullets: [
-        "Championed the design, development, and deployment of scalable, distributed machine learning systems on AWS, achieving significant improvements in model performance and system efficiency. Technologies used: Python, C++, SQL, Docker, Kubernetes, Airflow, S3, EC2, Lambda, and EMR.",
-        "Achieved high standards of software quality and reliability by leveraging best practices of Agile, CI/CD, and Test-Driven Development (TDD), thereby contributing to the timely delivery of 28 complex stories.",
-        "Innovated two data-pipeline workflows for the Global Event Logging Event Chronicler using Spark and Kafka, effectively handling large-scale, real-time data and enhancing ML model training efficiency.",
-        "Implemented RESTful APIs and microservices using Node.js and Express.js to enable seamless data sharing and interaction between various software components.",
-        "Boosted system performance by 40% through effective system profiling, performance tuning, and refactoring of complex DAGs using Apache Airflow.",
-        "Streamlined the data querying process for ML Research Teams using GraphQL, improving data access efficiency and user satisfaction.",
-        "Architected and deployed a secure, scalable Elasticsearch system on AWS, facilitating advanced data analysis capabilities and setting the foundation for future data version control and similarity search features.",
+        "Directed architecture and deployment of 4 distributed ML system workflows utilizing Python, C++, SQL, Docker, Kubernetes, AWS, and Airflow, achieving a 40% performance increase, and reducing latency by 35%.",
+        "Overhauled two ML production systems for 2D object detection, enhancing input capacity by 30% and resource utilization by 40% via Airflow DAG profiling, codebase refactoring, and resource optimization.",
+        "Transformed software development lifecycle by implementing Agile, CI/CD, and TDD methodologies. Constructed 4 new CI/CD pipelines, increasing task completion speed by 35% and enhancing software reliability by 40%.",
+        "Designed an efficient data management system using SQL (PostgreSQL) and NoSQL databases (Elasticsearch), enhancing data retrieval times by 50%.",
       ]
     },
     {
@@ -167,13 +164,11 @@ const workExperiences = {
       companylogo: require("./assets/images/RitLogo.png"),
       date: "July 2020 – February 2021",
       desc:
-        "Assisted and collaborated with Researchers at Action Lab to facilitate Computer Vision Research.",
+        "Executed pioneering research in AI and ML, and led the creation of advanced models, significantly enhancing data collection speed, and annotation efficiency, fostering an environment of technical excellence and continuous improvement.",
       descBullets: [
-        "Programmed web crawlers to create a Dataset of 1000+ videos across 5+ categories.",
-        "Crawler bots enhanced data collection speed by 40% with precision range of 85% - 90%",
-        "Implemented video-to-text generators using Faster RCNN + LSTM models to annotate dataset.",
-        "Model generated vocabulary for 100+ objects with BLEU score of 71.8.",
-        "Held & participated in weekly peer code reviews to test and debug code and system features for multiple teams",
+        "Developed advanced web crawlers using Python and opensource APIs, creating a diverse dataset of 1000+ videos across 5+ categories and enhancing data collection speed by 40%.",
+        "Created video-to-text generators using Faster RCNN + LSTM models, to automate annotation of the dataset to generate a vocabulary for over 100 objects with a BLEU score of 71.8.",
+        "Improved model accuracy in automated annotation processes by 30% by applying data engineering techniques like PCA, ICA, LDA, LLE, and t-SNE.",
       ]
     },
     {
@@ -182,18 +177,12 @@ const workExperiences = {
       companylogo: require("./assets/images/h.png"),
       date: "June 2017 – July 2018",
       desc:
-        "Engineered hypothesis testing, A/B testing and built scalable ML and Deep Learning models.",
+        "Engineered and optimized big data pipelines and machine learning systems, accelerating data load speed, boosting sales, and promoting system resilience while fostering a culture of continuous learning.",
       descBullets: [
-        "Engineered and optimized 24 Big Data ETL pipelines using Hadoop, Spark, and Kafka, handling petabyte-scale data and achieving a 3x improvement in data load speed.",
-        "Developed ML-based CRM prototypes using TensorFlow, Keras, and PyTorch, leveraging AWS SageMaker for deployment, resulting in a 15% increase in sales.",
-        "Mentored five interns, fostering a culture of continuous learning and collaboration by designing comprehensive learning modules on software engineering principles and modern ML frameworks.",
-        "Implemented efficient data management practices using both SQL (PostgreSQL) and NoSQL (MongoDB) databases, providing robust data infrastructure for ML systems.",
-        "Integrated ML systems within the existing microservices architecture using Docker and Kubernetes, enhancing system scalability and resilience.",
-        "Conducted rigorous system debugging and issue resolution using tools like Jira and Git, ensuring optimal system performance and reliability.",
-        "Programmed 25 Proof of Concepts (POCs) prototytpes that simulated and analyzed client manufacturing plants.",
-        "Executed data engineering and feature extraction using PCA, ICA, LDA, LLE and t-SNE to analyze dominant features in client processes.",
-        "Desinged and developed inventory reduction feature to reorder and restock crucial components for inventory management, reducing 15% restocking time.",
-        "Established 24 ETL pipelines to enable users to perform analytics at scale, reducing time to decision by 20%",
+        "Designed and engineered real-time data pipeline workflows with Spark and Kafka, deploying various algorithms and ML techniques to boost system performance by 60% and system efficiency by 45%.",
+        "Created ML-based CRM prototypes with TensorFlow, Keras, and PyTorch, contributing to a 15% sales increase and 50% improvement in customer retention.",
+        "Integrated Computer Vision and NLP ML systems into microservices architectures with Docker and Kubernetes, enhancing system resilience by 50% and scalability by 70%.",
+        "Fostered a culture of continuous learning and collaboration among a team of 5 interns, increasing team productivity by 40%.",
       ]
     },
     {
@@ -202,18 +191,10 @@ const workExperiences = {
       companylogo: require("./assets/images/drdo.png"),
       date: "August 2016 – May 2017",
       desc:
-        "Supported Scientists, Engineers to replace manual testing of propellants with Deep Learning Systems.",
+        "Played a key role in the development of efficient deep learning system prototypes, implemented rigorous testing standards, and improved application performance and system storage efficiency, demonstrating a commitment to quality and performance.",
       descBullets: [
-        "Achieved 94% code coverage through diligent unit testing and refactoring using Jest, leading to significant improvements in application performance and reliability.",
-        "Developed intuitive front-end features for multiple user interfaces using React.js and Redux, following best practices of responsive design and user-centric design.",
-        "Participated in designing and optimizing software architecture using Node.js and Express.js, contributing to scalable and efficient software solutions.",
-        "Demonstrated a proactive approach in the code review and debugging processes using Git and GitHub, fostering a culture of collaboration and continuous improvement.",
-        "Recevied citation for performance.",
-        "Assisted development of multiple deep learning system prototypes to analyze ageing & testing of 3 propellant types.",
-        "Decreased system storage footprint by 43% through feature engineering, reducing 27% of training time.",
-        "Programmed REST APIs to expose model endpoints to interface with Multi-User Intefaces (MUIs).",
-        "Enhanced code coverage from 67% to 85%, test coverage from 63% to 87% by refactoring and unit-testing.",
-        "Recevied citation for performance."
+        "Programmed efficient deep learning system prototypes for propellant analysis, reducing system storage footprint by 43% and training time by 27% through advanced feature engineering techniques.",
+        "Enhanced code coverage from 63% to 94% through refactoring and unit testing, leading to 1.5x improvement in Memory (CPU) management & saved 110ms in loading time.",
       ]
     }
   ]
