@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2d4408581b0c2d49710b6d4746487195",
+    "revision": "308d4ccfd06c79913d3b14cf258a446e",
     "url": "/index.html"
   },
   {
-    "revision": "438dde9aa4e71b465325",
+    "revision": "9481e8c8b47155520227",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "66ada44911e2543bac85",
+    "revision": "10fcd6879fee90d3956d",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "37ced7fdaebe3af6de6b",
+    "revision": "4f8afcdb114c9c89031f",
     "url": "/static/css/main.207db4cf.chunk.css"
   },
   {
-    "revision": "015812524db914c1efb5",
-    "url": "/static/js/2.b9f1a33b.chunk.js"
+    "revision": "5b39beec5601663949b4",
+    "url": "/static/js/2.0286940a.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.b9f1a33b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.0286940a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "438dde9aa4e71b465325",
-    "url": "/static/js/3.10b3eb52.chunk.js"
+    "revision": "9481e8c8b47155520227",
+    "url": "/static/js/3.29de2d96.chunk.js"
   },
   {
-    "revision": "66ada44911e2543bac85",
-    "url": "/static/js/4.b26fc606.chunk.js"
+    "revision": "10fcd6879fee90d3956d",
+    "url": "/static/js/4.61430102.chunk.js"
   },
   {
-    "revision": "37ced7fdaebe3af6de6b",
-    "url": "/static/js/main.f842e99f.chunk.js"
+    "revision": "4f8afcdb114c9c89031f",
+    "url": "/static/js/main.db1de945.chunk.js"
   },
   {
-    "revision": "10774c74888d9415c2d3",
-    "url": "/static/js/runtime-main.8e93a2b4.js"
+    "revision": "1419a3eff1bcd659cd12",
+    "url": "/static/js/runtime-main.1cf864d5.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "0be08b949066c86ad2f2af0016c7cc70",
+    "url": "/static/media/OmkarSarde_Resume.0be08b94.pdf"
   },
   {
     "revision": "1411f43571704f82a6b86e0b6f321b03",
