@@ -276,7 +276,7 @@ const achievementSection = {
       title: "Advanced Java Programming",
       subtitle:
         "",
-      image: require("./assets/images/U8.webp"),
+      image: require("./assets/images/U8.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -289,7 +289,7 @@ const achievementSection = {
       title: "Java Advanced Algorithms",
       subtitle:
         "",
-      image: require("./assets/images/U1.webp"),
+      image: require("./assets/images/U1.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -302,7 +302,7 @@ const achievementSection = {
       title: "Node.js Developer",
       subtitle:
         "",
-      image: require("./assets/images/U7.webp"),
+      image: require("./assets/images/U7.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -315,7 +315,7 @@ const achievementSection = {
       title: "Python for ML",
       subtitle:
         "",
-      image: require("./assets/images/U2.webp"),
+      image: require("./assets/images/U2.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -328,7 +328,7 @@ const achievementSection = {
       title: "Hadoop for Big Data",
       subtitle:
         "",
-      image: require("./assets/images/U4.webp"),
+      image: require("./assets/images/U4.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -341,7 +341,7 @@ const achievementSection = {
       title: "Docker and Kubernetes",
       subtitle:
         "",
-      image: require("./assets/images/U9.webp"),
+      image: require("./assets/images/U9.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -354,7 +354,7 @@ const achievementSection = {
       title: "Tensorflow for Deep Learning",
       subtitle:
         "",
-      image: require("./assets/images/U3.webp"),
+      image: require("./assets/images/U3.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -367,7 +367,7 @@ const achievementSection = {
       title: "Structured Query Language (SQL)",
       subtitle:
         "",
-      image: require("./assets/images/U5.webp"),
+      image: require("./assets/images/U5.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -380,7 +380,7 @@ const achievementSection = {
       title: "Data Science and Analysis",
       subtitle:
         "",
-      image: require("./assets/images/U6.webp"),
+      image: require("./assets/images/U6.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -393,7 +393,7 @@ const achievementSection = {
       title: "Machine Learning using R",
       subtitle:
         "",
-      image: require("./assets/images/U10.webp"),
+      image: require("./assets/images/U10.jpg"),
       footerLink: [
         {
           name: "Certification",
@@ -468,8 +468,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1-585-439-7414",
-  email_address: "os4802@g.rit.edu"
+  number: "+1-603-400-9586",
+  email_address: "sardeomkarp@gmail.com"
 };
 
 // Twitter Section
