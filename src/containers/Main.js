@@ -52,7 +52,6 @@ export default class Main extends Component {
           <Education />
           <WorkExperience />
           <Projects />
-          <StartupProject />
           <Achievement />
           <Blogs />
           <Talks />
