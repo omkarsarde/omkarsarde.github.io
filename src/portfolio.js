@@ -14,8 +14,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Software Engineer who is trying to positively change the world, one problem at a time!",
   ),
-  resumeLink:
-    "https://github.com/omkarsarde/Resume/blob/main/OmkarSardeResume.pdf",
+  resumeLink:require("./assets/documents/OmkarSarde_Resume.pdf"),
+    //"https://github.com/omkarsarde/Resume/blob/main/OmkarSardeResume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
